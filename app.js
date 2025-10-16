@@ -37,5 +37,6 @@ apostrophe({
     'default-page': {},
     'two-column-widget': {},
     'section-widget': {},
+    'accordion-widget': {},
   }
 });

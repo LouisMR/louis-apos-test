@@ -15,6 +15,7 @@ export default {
             '@apostrophecms/html': {},
             'two-column': {},
             'section': {},
+            'accordion': {},
           }
         }
       }
