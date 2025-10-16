@@ -17,6 +17,7 @@ export default {
             '@apostrophecms/video': {},
             '@apostrophecms/html': {},
             'two-column': {},
+            'accordion': {},
           },
         }
       },
