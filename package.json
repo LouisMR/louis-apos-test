@@ -40,7 +40,9 @@
   "license": "MIT",
   "dependencies": {
     "@apostrophecms/vite": "^1.0.0",
+    "@popperjs/core": "^2.11.8",
     "apostrophe": "^4.9.0",
+    "bootstrap": "^5.3.8",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
