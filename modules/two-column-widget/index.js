@@ -16,6 +16,7 @@ export default {
             '@apostrophecms/image': {},
             '@apostrophecms/video': {},
             '@apostrophecms/html': {},
+            'accordion': {},
           }
         }
       },
@@ -29,6 +30,7 @@ export default {
             '@apostrophecms/image': {},
             '@apostrophecms/video': {},
             '@apostrophecms/html': {},
+            'accordion': {},
           }
         }
       }
