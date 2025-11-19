@@ -12,6 +12,7 @@ export default {
             '@apostrophecms/image': {},
             '@apostrophecms/video': {},
             '@apostrophecms/html': {},
+            '@apostrophecms/layout': {},
             'two-column': {},
             'section': {},
             'accordion': {},
