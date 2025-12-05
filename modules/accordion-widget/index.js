@@ -10,6 +10,7 @@ export default {
       accordionContent: {
         type: 'area',
         label: 'Accordion Content',
+        contextual: true, // Enable contextual editing
         options: {
           widgets: {
             '@apostrophecms/rich-text': {},
