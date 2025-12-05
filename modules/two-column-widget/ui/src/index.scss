@@ -7,11 +7,12 @@
 .two-col__column {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex: 1;
 
   figure.bp-image-widget__wrapper {
     text-align: center;
-    
+
     img {
       max-width: 250px;
       width: 100%;
