@@ -1,22 +1,37 @@
 export default {
-  extend: '@apostrophecms/widget-type',
+extend: '@apostrophecms/widget-type',
   options: {
-    label: 'Accordion'
+    label: 'Edit Accordion',
   },
-  // The widget type's field schema
   fields: {
     add: {
-      // Section content
-      accordionContent: {
-        type: 'area',
-        label: 'Accordion Content',
-        options: {
-          widgets: {
-            '@apostrophecms/rich-text': {},
-            '@apostrophecms/html': {},
-          },
+      accordionItems: {
+        type: 'array',
+        label: 'Accordion Item',
+        fields: { 
+          add: {
+            // Section content
+            title: {
+              type: 'string',
+              label: 'Accordion Title',
+              required: true,
+              options: {
+                textarea: true
+              }
+            },
+            content: {
+              type: 'area',
+              label: 'Accordion Content',
+              options: {
+                widgets: {
+                  '@apostrophecms/rich-text': {},
+                  '@apostrophecms/html': {},
+                },
+              }
+            }
+          }
         }
-      },
-    }
-  }
+      }
+    },
+  },
 };
